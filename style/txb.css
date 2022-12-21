@@ -1,6 +1,6 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
   list-style-type: none;
   font-family: "Open Sans", sans-serif;
@@ -79,9 +79,23 @@ body {
   gap: 5px;
 }
 
-#upl:hover {
+#upl {
   cursor: pointer;
   background: #19c485;
   border: 1px solid #19c485;
   transition: 0.3s;
+}
+
+#pesquisa {
+  background-image: url(/contents/imgs/fundo-pes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100vw;
+  height: 80vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
