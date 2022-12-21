@@ -1,0 +1,34 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+#cabecalho {
+  width: 100vw;
+  height: 30vh;
+display: flex;
+justify-content: space-evenly;
+  background: rgba(180, 20, 20, 0);
+}
+
+#cabecalho img {
+  width: 140px;
+}
+
+#caixa {
+    display: flex;
+}
+
+.itens {
+}
+
+#exp {
+  display: flex;
+}
+
+#upl {
+  display: flex;
+}
