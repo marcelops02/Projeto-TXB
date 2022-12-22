@@ -9,6 +9,9 @@
 body {
   background: rgb(255, 255, 255);
   color: #656f79;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
 }
 
 #cabecalho {
@@ -79,7 +82,7 @@ body {
   gap: 5px;
 }
 
-#upl {
+#upl:hover {
   cursor: pointer;
   background: #19c485;
   border: 1px solid #19c485;
@@ -92,7 +95,6 @@ body {
   background-size: cover;
   background-position: center center;
   width: 100vw;
-  height: 80vh;
   color: white;
   display: flex;
   flex-direction: column;
@@ -193,4 +195,50 @@ body {
 
 #info-ad a {
   color: white;
+}
+
+#principal-itens {
+  display: flex;
+  justify-content: space-around;
+}
+
+#caixa{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+#caixa li:hover{
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  background: rgb(230, 229, 229);
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: 0.5s;
+}
+
+#edt {
+  padding: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: 1px solid rgb(187, 186, 186);
+  border-radius: 24px;
+  color: black;
+}
+
+#edt:hover {
+  cursor: pointer;
+  border: 1px solid rgb(24, 24, 24);
+  transition: 0.3s;
+}
+
+#main-imgs{
+
+}
+
+#main-imgs img{
+  width: 250px;
 }
