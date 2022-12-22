@@ -53,9 +53,7 @@ body {
 
 .item:hover {
   cursor: pointer;
-
   background: rgb(230, 229, 229);
-
   transition: 0.5s;
 }
 
@@ -99,7 +97,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  width: 100vw;
   color: white;
   display: flex;
   flex-direction: column;
@@ -108,7 +105,7 @@ body {
 }
 
 #msg {
-  margin-top: 160px;
+  margin-top: 130px;
   font-size: 32px;
   font-weight: 800;
   line-height: 48px;
@@ -127,11 +124,13 @@ body {
   border: none;
   border-radius: 56px;
   background: white;
-  color: #656f79;
-  font-weight: 400;
+  color: #838383;
+  font-weight: 600;
   padding: 5px;
   width: 800px;
-  line-height: 29px;
+  line-height: 30px;
+  margin-top: 10px;
+  font-size: 14px;
 }
 
 #busc {
@@ -158,7 +157,7 @@ body {
   border: none;
   outline: none;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 14px;
   width: 450px;
 }
 
@@ -192,8 +191,10 @@ body {
 
 #info-ad {
   display: flex;
-  gap: 500px;
-  margin-bottom: 10px;
+  padding-bottom: 23px;
+  padding-top: 30px;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 #info-ad a {
@@ -204,13 +205,67 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: left;
+  justify-content: flex-start;
+  padding-right: 350px;
+}
+
+#font {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-left: 350px;
 }
 
 #principal-itens {
   display: flex;
+  padding-left: 30px;
+  padding-top: 40px;
+  gap: 250px;
 }
 
 #caixa {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#caixa li {
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  gap: 15px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#caixa li:hover {
+  cursor: pointer;
+  background: rgb(230, 229, 229);
+  transition: 0.5s;
+}
+
+#caixa #home i {
+  color: #00ab6b;
+}
+
+#edt {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  gap: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid rgb(187, 186, 186);
+  border-radius: 24px;
+  color: black;
+}
+
+#edt:hover {
+  cursor: pointer;
+  border: 1px solid rgb(24, 24, 24);
+  transition: 0.3s;
 }
