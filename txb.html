@@ -209,7 +209,11 @@
     <div id="fim">
         This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
     </div>
-    <script src="/script/txb.js"></script>
+    <script src="/script/txb.js">
+        const nome = window.prompt("Digite seu nome:");
+        const sobrenome = window.prompt("Digite seu sobrenome:");
+        const fullName = `${nome} ${sobrenome}`;
+    </script>
 </body>
 
 </html>
